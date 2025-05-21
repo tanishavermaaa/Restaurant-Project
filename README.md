@@ -3,7 +3,6 @@ A full-stack restaurant web application built with Node.js, Express.js, MongoDB,
 
 🚀 Features
 
-- User authentication and authorization
 - Register/Login with hashed passwords (bcrypt)
 - JSON Web Token-based authentication
 - Menu management with CRUD operations
