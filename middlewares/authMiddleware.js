@@ -13,7 +13,7 @@ module.exports = async (req, res, next) => {
       } else {
         req.user = decode.id;
         //req.body.id = decode.id;
-        next();
+        next(); 
       }
     });
   } catch (error) {
@@ -24,4 +24,5 @@ module.exports = async (req, res, next) => {
       error,
     });
   }
+
 };
